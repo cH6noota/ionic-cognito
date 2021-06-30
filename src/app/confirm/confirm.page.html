@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref=""></ion-back-button>
+    </ion-buttons>
+    
+    <ion-title>confirm</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-input type="text" placeholder="Verification code" name="verificationcode" [(ngModel)]="code"></ion-input>
+  <ion-button class="submit-btn" full type="submit" (click)="func()">Confirm</ion-button>
+</ion-content>
