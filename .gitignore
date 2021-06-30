@@ -13,7 +13,7 @@ Thumbs.db
 UserInterfaceState.xcuserstate
 $RECYCLE.BIN/
 
-environments*
+src/environments/
 
 *.log
 log.txt
